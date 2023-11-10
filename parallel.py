@@ -63,7 +63,7 @@ def process_and_save_chunk(step, chunk, filename, processed_chunks, processed_ch
             # Get the company id
             company_id = key
 
-            processed_chunk[key] = 0.0  # No suppliers and risk details, default to 0.0
+            processed_chunk[key] = 0.0  
 
             # Increment progress counter
             processed_items+=1
